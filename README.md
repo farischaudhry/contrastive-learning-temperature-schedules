@@ -4,6 +4,8 @@ A PyTorch implementation and empirical study of how different temperature‐anne
 
 Made for use on Google Colab.
 
+Please use the cifar10_results_sgd.zip version for results most aligned to the paper. 
+
 ---
 
 ## 📥 Downloading the results

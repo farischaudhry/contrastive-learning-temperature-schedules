@@ -1,0 +1,17 @@
+{
+    "N_POINTS": 4,
+    "DIM": 3,
+    "POSITIVE_PAIRS": [
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "dt": 0.01,
+    "max_steps": 5000000,
+    "success_threshold": 0.0001
+}

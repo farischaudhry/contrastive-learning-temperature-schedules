@@ -1,20 +1,20 @@
-# Global Convergence and Geometry of Contrastive Learning through Temperature Annealing
+# Code for "Convergence of Anisotropic Langevin-Based Temperature Annealing for Contrastive Learning"
 
-A PyTorch implementation and empirical study of how different temperature‐annealing schedules affect contrastive representation learning on CIFAR‑10. We demonstrate that (1) the shape of the annealing schedule critically impacts final linear‐probe accuracy and loss dynamics, and (2) improperly chosen (fixed) temperatures can lead to “freezing” in suboptimal minima.
+This repository contains the JAX and NumPy code to reproduce the empirical results for the paper of the same name.
 
-Made for use on Google Colab.
+## Overview
 
-Please use the cifar10_results_sgd.zip version for results most aligned to the paper. 
+The code implements a simulation of the anisotropic Langevin Stochastic Differential Equation as described in the paper. It is used to validate the paper's theoretical claims in a controlled, low-dimensional setting.
 
----
+Specifically, the experiments simulate the dynamics of a minimal contrastive learning problem with **N=4 embeddings evolving on a 3-dimensional sphere**. The code is designed to generate the main figures presented in the paper:
 
-## 📥 Downloading the results
+* **Figure 1:** The success probability of convergence as a function of the annealing rate `c`.
+* **Figure 2:** The distribution of first hitting times for different annealing schedules.
 
-> **⚠️ This repository uses Git LFS for CIFAR‑10 results and pretrained backbones.**
+## Setup
+
+The required dependencies are listed in `requirements.txt`. You can install them using pip:
 
 ```bash
-git clone https://github.com/your‑org/contrastive‑annealing.git
-cd contrastive‑annealing
-git lfs install
-git lfs pull
+pip install -r requirements.txt
 ```

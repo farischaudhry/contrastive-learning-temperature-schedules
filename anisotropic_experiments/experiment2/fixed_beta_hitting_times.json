@@ -1,0 +1,66 @@
+{
+  "beta_10": {
+    "Isotropic": {
+      "mean": 110.51,
+      "std": 85.10,
+      "median": 93.00,
+      "skew": 1.44,
+      "kurtosis": 3.40,
+      "IQR": 98.00,
+      "p95": 259.65,
+      "Failure Rate (%)": 0.00
+    },
+    "Aniso-Small": {
+      "mean": 107.90,
+      "std": 91.50,
+      "median": 94.00,
+      "skew": 1.70,
+      "kurtosis": 6.48,
+      "IQR": 87.00,
+      "p95": 249.00,
+      "Failure Rate (%)": 0.00
+    },
+    "Aniso-Large": {
+      "mean": 296.57,
+      "std": 255.80,
+      "median": 208.00,
+      "skew": 1.77,
+      "kurtosis": 4.18,
+      "IQR": 331.25,
+      "p95": 872.00,
+      "Failure Rate (%)": 0.00
+    }
+  },
+  "beta_100": {
+    "Isotropic": {
+      "mean": 96.06,
+      "std": 79.20,
+      "median": 79.00,
+      "skew": 2.55,
+      "kurtosis": 11.90,
+      "IQR": 75.25,
+      "p95": 228.65,
+      "Failure Rate (%)": 0.00
+    },
+    "Aniso-Small": {
+      "mean": 95.35,
+      "std": 81.30,
+      "median": 82.00,
+      "skew": 2.43,
+      "kurtosis": 12.61,
+      "IQR": 78.00,
+      "p95": 219.65,
+      "Failure Rate (%)": 0.00
+    },
+    "Aniso-Large": {
+      "mean": 119.52,
+      "std": 95.70,
+      "median": 102.00,
+      "skew": 1.36,
+      "kurtosis": 2.86,
+      "IQR": 109.25,
+      "p95": 297.65,
+      "Failure Rate (%)": 0.00
+    }
+  }
+}

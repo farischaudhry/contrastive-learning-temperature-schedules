@@ -2,8 +2,8 @@
   "n_runs": 512,
   "beta_target": 10.0,
   "dt": 0.01,
-  "max_steps": 5000000,
-  "success_threshold": 0.0001,
+  "max_steps": 200000,
+  "success_threshold": -1.5,
   "A_list_diags": [
     "isotropic",
     [

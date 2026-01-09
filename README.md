@@ -1,4 +1,4 @@
-# Code for "Convergence of Anisotropic Langevin-Based Temperature Annealing for Contrastive Learning"
+# Convergence of Anisotropic Langevin-Based Temperature Annealing for Contrastive Learning
 
 This repository contains the JAX and NumPy code to reproduce the empirical results for the paper of the same name.
 
